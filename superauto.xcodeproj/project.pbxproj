@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3263CBFF89B81083B58675B4 /* Pods_superauto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1131925F2C015320958002 /* Pods_superauto.framework */; };
+		EC37BF8F293EDB2B00CF2DCA /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37BF8E293EDB2B00CF2DCA /* ItemsCollectionViewCell.swift */; };
+		EC37BF91293EDB8500CF2DCA /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37BF90293EDB8500CF2DCA /* ItemsTableViewCell.swift */; };
+		EC37BF93293EE21100CF2DCA /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37BF92293EE21100CF2DCA /* ProductViewController.swift */; };
+		EC37BF95293EE37E00CF2DCA /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37BF94293EE37E00CF2DCA /* ProductsTableViewCell.swift */; };
+		EC883898293D949A00B96E33 /* AccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC883897293D949A00B96E33 /* AccViewController.swift */; };
+		EC88389E293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88389C293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.swift */; };
+		EC88389F293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC88389D293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.xib */; };
+		EC8838A2293DA29900B96E33 /* OrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8838A0293DA29900B96E33 /* OrderCollectionViewCell.swift */; };
+		EC8838A3293DA29900B96E33 /* OrderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8838A1293DA29900B96E33 /* OrderCollectionViewCell.xib */; };
+		EC8C9556293B85960020B1BB /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C9555293B85960020B1BB /* HelpViewController.swift */; };
+		ECA9984F294033510092E69E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9984E294033510092E69E /* LoginViewController.swift */; };
+		ECA99851294033B90092E69E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA99850294033B90092E69E /* RegisterViewController.swift */; };
+		ECB676A72940D388004CA8B8 /* CompareImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB676A52940D388004CA8B8 /* CompareImageCollectionViewCell.swift */; };
+		ECB676A82940D388004CA8B8 /* CompareImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB676A62940D388004CA8B8 /* CompareImageCollectionViewCell.xib */; };
+		ECCDA537294DB62F0070E38E /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA536294DB62F0070E38E /* CartViewController.swift */; };
+		ECCDA539294DB6410070E38E /* BuyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA538294DB6410070E38E /* BuyNowViewController.swift */; };
 		ECE7C4EA2935F28700F088F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C4E92935F28700F088F7 /* AppDelegate.swift */; };
 		ECE7C4EC2935F28700F088F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C4EB2935F28700F088F7 /* SceneDelegate.swift */; };
 		ECE7C4EE2935F28700F088F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C4ED2935F28700F088F7 /* ViewController.swift */; };
@@ -14,9 +31,35 @@
 		ECE7C4F42935F28700F088F7 /* superauto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C4F22935F28700F088F7 /* superauto.xcdatamodeld */; };
 		ECE7C4F62935F28700F088F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C4F52935F28700F088F7 /* Assets.xcassets */; };
 		ECE7C4F92935F28700F088F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C4F72935F28700F088F7 /* LaunchScreen.storyboard */; };
+		ECE7C5012935F33800F088F7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C5002935F33800F088F7 /* ItemViewController.swift */; };
+		ECE7C5032935F34900F088F7 /* ItemsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C5022935F34900F088F7 /* ItemsNavigationController.swift */; };
+		ECE7C5052935F36600F088F7 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C5042935F36600F088F7 /* CompareViewController.swift */; };
+		ECE7C5072935F3C200F088F7 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C5062935F3C200F088F7 /* BuyViewController.swift */; };
+		ECE7C5092935F3CC00F088F7 /* SpecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C5082935F3CC00F088F7 /* SpecsViewController.swift */; };
+		ECE7C50B2935F4D400F088F7 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C50A2935F4D400F088F7 /* OverviewViewController.swift */; };
+		ECEB4C1E293A008200E269B3 /* BuyImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB4C1D293A008200E269B3 /* BuyImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0845561BF84A1DF7DF4602B2 /* Pods-superauto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superauto.release.xcconfig"; path = "Target Support Files/Pods-superauto/Pods-superauto.release.xcconfig"; sourceTree = "<group>"; };
+		89A91093388002D1DC8325C0 /* Pods-superauto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superauto.debug.xcconfig"; path = "Target Support Files/Pods-superauto/Pods-superauto.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1131925F2C015320958002 /* Pods_superauto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_superauto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC37BF8E293EDB2B00CF2DCA /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC37BF90293EDB8500CF2DCA /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		EC37BF92293EE21100CF2DCA /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		EC37BF94293EE37E00CF2DCA /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		EC883897293D949A00B96E33 /* AccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccViewController.swift; sourceTree = "<group>"; };
+		EC88389C293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC88389D293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseOrderCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC8838A0293DA29900B96E33 /* OrderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC8838A1293DA29900B96E33 /* OrderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC8C9555293B85960020B1BB /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		ECA9984E294033510092E69E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ECA99850294033B90092E69E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ECB676A52940D388004CA8B8 /* CompareImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECB676A62940D388004CA8B8 /* CompareImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompareImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECCDA536294DB62F0070E38E /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		ECCDA538294DB6410070E38E /* BuyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNowViewController.swift; sourceTree = "<group>"; };
 		ECE7C4E62935F28700F088F7 /* superauto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superauto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE7C4E92935F28700F088F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE7C4EB2935F28700F088F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +69,13 @@
 		ECE7C4F52935F28700F088F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE7C4F82935F28700F088F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE7C4FA2935F28700F088F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE7C5002935F33800F088F7 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		ECE7C5022935F34900F088F7 /* ItemsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsNavigationController.swift; sourceTree = "<group>"; };
+		ECE7C5042935F36600F088F7 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
+		ECE7C5062935F3C200F088F7 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		ECE7C5082935F3CC00F088F7 /* SpecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecsViewController.swift; sourceTree = "<group>"; };
+		ECE7C50A2935F4D400F088F7 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		ECEB4C1D293A008200E269B3 /* BuyImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3263CBFF89B81083B58675B4 /* Pods_superauto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D827E53AA5B568790C7855D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1131925F2C015320958002 /* Pods_superauto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC0A915F2938A7A000B3E8FE /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C5042935F36600F088F7 /* CompareViewController.swift */,
+				ECB676A52940D388004CA8B8 /* CompareImageCollectionViewCell.swift */,
+				ECB676A62940D388004CA8B8 /* CompareImageCollectionViewCell.xib */,
+			);
+			name = Compare;
+			sourceTree = "<group>";
+		};
+		EC883899293D9A7D00B96E33 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EC883897293D949A00B96E33 /* AccViewController.swift */,
+				ECA9984E294033510092E69E /* LoginViewController.swift */,
+				EC8838A0293DA29900B96E33 /* OrderCollectionViewCell.swift */,
+				EC8838A1293DA29900B96E33 /* OrderCollectionViewCell.xib */,
+				ECA99850294033B90092E69E /* RegisterViewController.swift */,
+				EC88389C293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.swift */,
+				EC88389D293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EC8838A4293DE0E800B96E33 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C5022935F34900F088F7 /* ItemsNavigationController.swift */,
+				ECE7C5002935F33800F088F7 /* ItemViewController.swift */,
+				EC37BF90293EDB8500CF2DCA /* ItemsTableViewCell.swift */,
+				EC37BF8E293EDB2B00CF2DCA /* ItemsCollectionViewCell.swift */,
+				EC37BF92293EE21100CF2DCA /* ProductViewController.swift */,
+				EC37BF94293EE37E00CF2DCA /* ProductsTableViewCell.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
 		ECE7C4DD2935F28700F088F7 = {
 			isa = PBXGroup;
 			children = (
 				ECE7C4E82935F28700F088F7 /* superauto */,
 				ECE7C4E72935F28700F088F7 /* Products */,
+				F54AD57BA1AC9B2F8CD2B0E1 /* Pods */,
+				7D827E53AA5B568790C7855D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +159,12 @@
 				ECE7C4E92935F28700F088F7 /* AppDelegate.swift */,
 				ECE7C4EB2935F28700F088F7 /* SceneDelegate.swift */,
 				ECE7C4ED2935F28700F088F7 /* ViewController.swift */,
+				EC8838A4293DE0E800B96E33 /* Product */,
+				EC0A915F2938A7A000B3E8FE /* Compare */,
+				ECEB4C20293A009400E269B3 /* Overview */,
+				ECEB4C1F293A008500E269B3 /* Buy */,
+				EC8C9555293B85960020B1BB /* HelpViewController.swift */,
+				EC883899293D9A7D00B96E33 /* Profile */,
 				ECE7C4EF2935F28700F088F7 /* Main.storyboard */,
 				ECE7C4F52935F28700F088F7 /* Assets.xcassets */,
 				ECE7C4F72935F28700F088F7 /* LaunchScreen.storyboard */,
@@ -70,6 +174,35 @@
 			path = superauto;
 			sourceTree = "<group>";
 		};
+		ECEB4C1F293A008500E269B3 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C5062935F3C200F088F7 /* BuyViewController.swift */,
+				ECEB4C1D293A008200E269B3 /* BuyImageCollectionViewCell.swift */,
+				ECE7C5082935F3CC00F088F7 /* SpecsViewController.swift */,
+				ECCDA536294DB62F0070E38E /* CartViewController.swift */,
+				ECCDA538294DB6410070E38E /* BuyNowViewController.swift */,
+			);
+			name = Buy;
+			sourceTree = "<group>";
+		};
+		ECEB4C20293A009400E269B3 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C50A2935F4D400F088F7 /* OverviewViewController.swift */,
+			);
+			name = Overview;
+			sourceTree = "<group>";
+		};
+		F54AD57BA1AC9B2F8CD2B0E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A91093388002D1DC8325C0 /* Pods-superauto.debug.xcconfig */,
+				0845561BF84A1DF7DF4602B2 /* Pods-superauto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE7C4FD2935F28700F088F7 /* Build configuration list for PBXNativeTarget "superauto" */;
 			buildPhases = (
+				2BB86928AFF22C181BD136A6 /* [CP] Check Pods Manifest.lock */,
 				ECE7C4E22935F28700F088F7 /* Sources */,
 				ECE7C4E32935F28700F088F7 /* Frameworks */,
 				ECE7C4E42935F28700F088F7 /* Resources */,
+				B5F6FB79451CF12C5F03CBE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,7 +241,7 @@
 				};
 			};
 			buildConfigurationList = ECE7C4E12935F28700F088F7 /* Build configuration list for PBXProject "superauto" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -130,21 +265,86 @@
 			files = (
 				ECE7C4F92935F28700F088F7 /* LaunchScreen.storyboard in Resources */,
 				ECE7C4F62935F28700F088F7 /* Assets.xcassets in Resources */,
+				EC88389F293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.xib in Resources */,
 				ECE7C4F12935F28700F088F7 /* Main.storyboard in Resources */,
+				ECB676A82940D388004CA8B8 /* CompareImageCollectionViewCell.xib in Resources */,
+				EC8838A3293DA29900B96E33 /* OrderCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB86928AFF22C181BD136A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-superauto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F6FB79451CF12C5F03CBE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-superauto/Pods-superauto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-superauto/Pods-superauto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-superauto/Pods-superauto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECE7C4E22935F28700F088F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA9984F294033510092E69E /* LoginViewController.swift in Sources */,
+				ECA99851294033B90092E69E /* RegisterViewController.swift in Sources */,
 				ECE7C4EE2935F28700F088F7 /* ViewController.swift in Sources */,
+				EC37BF95293EE37E00CF2DCA /* ProductsTableViewCell.swift in Sources */,
+				ECEB4C1E293A008200E269B3 /* BuyImageCollectionViewCell.swift in Sources */,
+				EC8C9556293B85960020B1BB /* HelpViewController.swift in Sources */,
+				ECE7C5072935F3C200F088F7 /* BuyViewController.swift in Sources */,
+				ECE7C5032935F34900F088F7 /* ItemsNavigationController.swift in Sources */,
+				ECCDA539294DB6410070E38E /* BuyNowViewController.swift in Sources */,
+				EC883898293D949A00B96E33 /* AccViewController.swift in Sources */,
+				ECE7C5052935F36600F088F7 /* CompareViewController.swift in Sources */,
+				EC37BF8F293EDB2B00CF2DCA /* ItemsCollectionViewCell.swift in Sources */,
 				ECE7C4EA2935F28700F088F7 /* AppDelegate.swift in Sources */,
+				ECB676A72940D388004CA8B8 /* CompareImageCollectionViewCell.swift in Sources */,
+				ECE7C5012935F33800F088F7 /* ItemViewController.swift in Sources */,
+				ECCDA537294DB62F0070E38E /* CartViewController.swift in Sources */,
+				EC88389E293D9B1B00B96E33 /* PurchaseOrderCollectionViewCell.swift in Sources */,
+				EC8838A2293DA29900B96E33 /* OrderCollectionViewCell.swift in Sources */,
 				ECE7C4F42935F28700F088F7 /* superauto.xcdatamodeld in Sources */,
+				EC37BF91293EDB8500CF2DCA /* ItemsTableViewCell.swift in Sources */,
+				ECE7C50B2935F4D400F088F7 /* OverviewViewController.swift in Sources */,
+				EC37BF93293EE21100CF2DCA /* ProductViewController.swift in Sources */,
 				ECE7C4EC2935F28700F088F7 /* SceneDelegate.swift in Sources */,
+				ECE7C5092935F3CC00F088F7 /* SpecsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +486,7 @@
 		};
 		ECE7C4FE2935F28700F088F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A91093388002D1DC8325C0 /* Pods-superauto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,6 +499,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +515,7 @@
 		};
 		ECE7C4FF2935F28700F088F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0845561BF84A1DF7DF4602B2 /* Pods-superauto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +528,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

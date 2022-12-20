@@ -9,4 +9,5 @@ import UIKit
 
 class BuyImageCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageProduct: UIImageView!
 }

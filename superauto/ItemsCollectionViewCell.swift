@@ -9,4 +9,5 @@ import UIKit
 
 class ItemsCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageBanner: UIImageView!
 }

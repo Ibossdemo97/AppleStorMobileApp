@@ -7,12 +7,13 @@
 
 import UIKit
 
-class ItemsViewController: UINavigationController {
+class ItemsNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        title = "Tất cả sản phẩm mac"
+
     }
     
 
